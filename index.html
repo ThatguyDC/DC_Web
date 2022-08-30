@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<!--Some code was altered/added upon from the originally provided document in order to learn how it's meant to display on a web page.-->
+<html lang="en">
+
+<head>
+    <a name="top"></a>
+    <meta charset="UTF-8">
+    <title>Davis C Home Page</title>
+    <link rel="stylesheet" href="main.css">
+    <!----this is head part---->
+</head>
+<styl> </styl>
+
+<body>
+    <!----THIS IS THE BODY---->
+    <h2> Welcome to Davis' home page.</h2>
+    <hr>
+
+    <p>My name is <em>Davis Cowper</em>. Thanks for visiting the site.</p>
+    <!-- menubar -->
+    <ul id="menubar">
+        <li>Home</li>
+        <li>About Me</li>
+        <li>My Favorites</li>
+    </ul>
+    <!-- about me -->
+    <h3 class="subheading"><u>About Me</u></h3>
+    <ul id="aboutme">
+        <li>I am a ETBD (Games) Student</li>
+        <li>My major is Games and Simulation with a focus on Development</li>
+        <li>I like programming</li>
+        <li>my favorite site is <a href="http://www.bungie.net" target="_blank">Bungie.net</a></li>
+
+        <h3 class="subheading"><u>My Favorite Places to Visit</u></h3>
+
+        <table border="2">
+            <th width="239px" height="50px" bgcolor="#80d2ff">Place Name</th>
+            <th width="367px" height="50px" bgcolor="#80d2ff"> Photos </th>
+
+            <table cellpadding="10" border="1" bgcolor="#80d2ff">
+
+                <tr class="odd">
+
+                    <td> Niagra Falls, New York State </td>
+                    <td> <img src="niagra%20falls.jpg" width="350px" height="300px" alt="Niagra Falls Map" /></td>
+                </tr>
+                <tr class="even">
+                    <td>Waimea Bay, North Shore, Hawaii</td>
+                    <td> <img src="waimea-bay-beach-cloudia.jpg" width="350px" height="300px" /></td>
+                </tr>
+
+            </table>
+            <h3><u>My Hometown Map</u></h3>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34158.75041287681!2d-77.24675110300922!3d38.83919571635842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64cc4875d59b7%3A0x40ab0ae70cc61810!2sAnnandale%2C%20VA!5e0!3m2!1sen!2sus!4v1661532367740!5m2!1sen!2sus" width="65%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <h3><u>My Favorite Game</u></h3>
+            <iframe width="777" height="370" src="https://www.youtube.com/embed/lfoeZLp5A7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3 class="subheading"><u>Contact Me</u></h3>
+            <form action="thankyou.html" method="get">
+                <fieldset>
+
+                    <legend>Your Details:</legend>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <br>
+                    <p>
+                        <label for="hear-about">How did you hear about my site?</label>
+                        <select name="referrer" id="hear-about">
+                            <option value="google">LikedIn</option>
+                            <option value="friend">Facebook</option>
+                        </select>
+                    </p>
+                    <p> Do you like my site? <br>
+                        <label><input type="radio" name="rating" value="yes"> Yes</label>
+                        <label><input type="radio" name="rating" value="no"> No</label>
+                    </p>
+                    <p>
+                        <label for="comments">Comments:</label><br>
+                        <textarea rows="4" cols="40" id="comments"></textarea>
+                    </p>
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+
+
+            <p><a href="#top">Go to Top</a></p>
+
+            <!-- footer -->
+            <footer>
+                <hr>
+                Copyright &copy; 2022 Davis Cowper
+            </footer>
+            <!--Misc Comments-->
+
+            <!--Type out tag letters for Emmet rather than the full tags of each to avoid autocomplete, then press TAB.-->
+</body></html>
+
