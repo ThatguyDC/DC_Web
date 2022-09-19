@@ -98,15 +98,22 @@ fieldset {
     text-align: left;
     line-height: 20px;
     border: 2px solid #041526;
+    border-radius: 25px;
 
 
 }
 
 label {
-    display: inline-block;
+    display: inline-grid;
     text-align: left;
 }
 
 input {
-    display: inline;
+    display: inline-block;
+
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
 }
