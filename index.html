@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!--Some code was altered/added upon from the originally provided document in order to learn how it's meant to display on a web page.-->
+
 <html lang="en">
 
 <head>
@@ -16,10 +16,10 @@
 </header>
 <nav id="nav_bar">
     <ul>
-        <li><a class="current" href="home.html">Home</a></li>
-        <li><a href="Portfolio.html">Portfolio</a></li>
-        <li><a href="">Resume</a></li>
-        <li><a href="https://github.com/ThatguyDC">Github</a></li>
+        <li><a class="current" href="home.html" target="_blank">Home</a></li>
+        <li><a href="Portfolio.html" target="_blank">Portfolio</a></li>
+        <li><a href="https://twitter.com/Gluten_Guardian" target="_blank">Twitter</a></li>
+        <li><a href="https://github.com/ThatguyDC" target="_blank">Github</a></li>
     </ul>
 </nav>
 
@@ -33,10 +33,14 @@
     <!-- about me -->
     <h3 class="subheading"><u>About Me</u></h3>
     <ul id="aboutme">
-        <li>I am a ETBD (Games) Student</li>
-        <li>My major is Games and Simulation with a focus on Development</li>
-        <li>I like programming</li>
-        <li>my favorite site is <a href="http://www.bungie.net" target="_blank">Bungie.net</a></li>
+        <li>I am a Games and Simulation Major/Comp Sci Minor at Miami University, graduating in 2026.</li>
+        <br>
+        <li>My focus within the major is on development, but I've had some experience with basic design elements and storytelling within games. </li>
+        <br>
+        <li>I've been programming for about 3-4 years now, and I'm starting to draft plans for my first game! I'll post news here or on my socials soon. </li>
+        <br>
+        <li></li>
+        <li>I play Destiny 2 a lot. A. LOT. Check out why here: <a href="http://www.bungie.net" target="_blank">Bungie.net</a></li>
 
         <h3 class="subheading"><u>My Favorite Places to Visit</u></h3>
 
@@ -60,36 +64,30 @@
             <iframe width="50%" height="370" src="https://www.youtube.com/embed/lfoeZLp5A7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
 encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <!--Note: This form does not submit to an endpoint email address at the moment,
-            so no information entered in the form will be stored or viewed. -->
 
             <h3>
-                <aside>
-                    <h3 class="subheading"><u>Contact Me</u></h3>
-                    <form action="thankyou.html" method="get">
-                        <fieldset>
+
+                <h3 class="subheading"><u>Contact Me</u></h3>
+                <form action="https://formsubmit.co/cowperd@gmail.com" method="POST" />
+                <fieldset>
 
 
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name"><br>
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email">
-                            <label for="hear-about">How'd You Find Me?</label>
-                            <input type="text" id="text" name="text">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email">
+                    <label for="hear-about">How'd You Find Me?</label>
+                    <input type="text" id="text" name="text">
 
-                            <p> Do you like my site? <br>
-                                <label><input type="radio" name="rating" value="yes"> Yes</label>
-                                <label><input type="radio" name="rating" value="no"> No</label>
-                            </p>
-                            <p>
-                                <label for="comments">Comments:</label><br>
-                                <textarea rows="4" cols="40" id="comments"></textarea>
-                            </p>
-                            <input type="submit" value="Submit">
-                        </fieldset>
-                    </form>
-                </aside>
 
+                    <p>
+                        <label for="comments">Comments:</label><br>
+                        <textarea rows="4" cols="40" id="comments"></textarea>
+                    </p>
+                    <input div class="button" type="submit" value="Submit">
+                    <input div class="button" type="reset" value="Reset">
+                </fieldset>
+                </form>
 
                 <p><a href="#top">Go to Top</a></p>
 
@@ -97,6 +95,7 @@ encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <footer>
                     <hr>
                     Copyright &copy; 2022 Davis Cowper
+
                 </footer>
                 <!--Misc Comments-->
 
