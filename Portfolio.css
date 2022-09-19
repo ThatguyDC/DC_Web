@@ -1,0 +1,123 @@
+article,
+section,
+figure,
+footer,
+header,
+nav,
+aside {
+    display: block;
+
+}
+
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+
+    width: 95%;
+    margin: 15px auto;
+    padding: 15px 25px;
+    border: 3px solid #041526;
+    background-color: #232936;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+#nav_bar {
+    clear: left;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #041526;
+}
+
+#nav_bar ul {
+    margin-left: 0;
+    margin-bottom: .5em;
+    list-style: none;
+    padding: .5em 2em 0 0;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 0 1.5em;
+    border-top: 2px solid #041526;
+    border-left: 2px solid #041526;
+    border-right: 2px solid #041526;
+    border-radius: 25px;
+}
+
+#nav_bar a:visited {
+    color: #5ea4ea;
+}
+
+#nav_bar a.current {
+    color: #1dbaae;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {}
+
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 2px solid #041526;
+}
+
+tr,
+th,
+td {
+    border-radius: 25px;
+    border-color: rgba(240, 248, 255, 0);
+}
+
+th {
+    border: 0px;
+
+}
+
+a {
+    display: inline-block;
+    margin: auto;
+    font-size: 50px;
+}
+
+
+/*Space for more formatting here*/
+
+
+
+
+fieldset {
+    height: 100%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 32%;
+    margin-right: 32%;
+    padding-top: .5em;
+    text-align: left;
+    line-height: 20px;
+    border: 2px solid #041526;
+    border-radius: 25px;
+
+
+}
+
+label {
+    display: inline-grid;
+    text-align: left;
+}
+
+input {
+    display: inline-block;
+
+}
+
+.button {
+    display: inline-block;
+    width: 100px;
+}
