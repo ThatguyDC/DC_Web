@@ -9,6 +9,26 @@ aside {
 
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #041526;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #151522;
+}
+
 body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
 
@@ -35,24 +55,28 @@ body {
     margin-bottom: .5em;
     list-style: none;
     padding: .5em 2em 0 0;
+    color: goldenrod;
 }
 
 #nav_bar li {
+    color: goldenrod;
     display: inline-block;
     padding: 0 1.5em;
     border-top: 2px solid #041526;
     border-left: 2px solid #041526;
     border-right: 2px solid #041526;
     border-radius: 25px;
+    text-decoration: none;
 }
 
 #nav_bar a:visited {
-    color: #5ea4ea;
+    color: rgb(183, 140, 37);
 }
 
-#nav_bar a.current {
-    color: #1dbaae;
+#nav_bar a:hover {
+    color: #ebbe68;
 }
+
 
 h1 {
     text-align: center;
@@ -67,7 +91,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     border-radius: 25px;
-    border: 2px solid #041526;
+    border: 4px solid #041526;
 }
 
 tr,
@@ -77,25 +101,28 @@ td {
     border-color: rgba(240, 248, 255, 0);
 }
 
-th {
-    border: 0px;
-
+iframe {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    border: 4px solid #041526;
 }
+
+
 
 
 /*Space for more formatting here*/
 
 
 
-
 fieldset {
-    height: 100%;
+    height: 290px;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 32%;
     margin-right: 32%;
     padding-top: .5em;
-    text-align: left;
+    text-align: center;
     line-height: 20px;
     border: 2px solid #041526;
     border-radius: 25px;
@@ -104,13 +131,17 @@ fieldset {
 }
 
 label {
-    display: inline-grid;
-    text-align: left;
+    display: block;
+    text-align: center;
+
 }
 
 input {
     display: inline-block;
+}
 
+.boxes {
+    display: inline-grid;
 }
 
 .button {
@@ -118,3 +149,6 @@ input {
     width: 100px;
 }
 
+.link {
+    color: rgb(183, 140, 37);
+}
