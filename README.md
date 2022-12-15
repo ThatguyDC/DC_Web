@@ -2,7 +2,7 @@ Created and maintained by Davis Cowper
 
 
 
-======================================================
+
 This website is being used as a personal portfolio and introduction page. 
 Because of this, projects are documented here that are for academic and personal use only. 
 
