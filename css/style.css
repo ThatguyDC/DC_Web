@@ -1,0 +1,138 @@
+/*  */
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+
+
+    width: 100%;
+    margin: 15px auto;
+    padding: 15px 25px;
+    border: 3px solid #000000;
+    background-color: #12171c;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+#aboutme {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+#slidebutton {
+    width: 15%;
+
+}
+
+.nameLabel {
+    float: left;
+}
+
+.link {
+    color: #a79535;
+    font-size: 14pt;
+}
+
+.link:hover {
+    color: #f5db4c;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #a79535;
+}
+
+
+.icon-block {
+    padding: 0 15px;
+}
+
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.brand-logo {
+    margin-left: 40px;
+}
+
+
+
+.slider .btn {
+    margin-top: 20px;
+    padding: 0 50px;
+    border-radius: 1%;
+
+}
+
+.slider {
+    width: auto;
+}
+
+.card-image img,
+.card-content p {
+    height: 150px;
+
+}
+
+.section-follow .fa-4x {
+    margin: 5px 10px;
+}
+
+.section-contact {
+    margin-top: 20px
+}
+
+
+/*
+SOURCE OF BUTTON GRADIENT
+https://gradientbuttons.colorion.co/
+*/
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #8e9eab 0%, #eef2f3 51%, #8e9eab 100%);
+    margin: auto;
+    width: 30%;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.responsive-img {
+    width: 65%;
+    height: auto;
+    float: left;
+    padding: 0 20px 0 0;
+    display: inline-block;
+}
+
+
+
+
+
+.light {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+
+
+.validate {
+    color: white;
+}
